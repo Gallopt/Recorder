@@ -1,5 +1,4 @@
-﻿
-#include "MainWindow.h"
+﻿#include "MainWindow.h"
 #include "ui_MainWindow.h"
 
 #include <opencv2/opencv.hpp>
@@ -325,7 +324,3 @@ void MainWindow::on_timer_timeout()//
     QString timm = disTime.toString("hh:mm:ss");
     ui->lcdNumber->display(timm);
 }
-
-
-
-
